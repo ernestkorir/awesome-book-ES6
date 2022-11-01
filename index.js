@@ -1,5 +1,4 @@
-import { Books, Interface, Date } from '/modules/index.js';
-
+import { Books, Interface, Date } from './modules/index.js';
 
 const booksContainer = document.querySelector('.books-container');
 
@@ -62,5 +61,3 @@ navLinks.addEventListener('click', (event) => {
 });
 
 setTimeout(updateTime(), 1000);
-
-console.log("imeisha");
